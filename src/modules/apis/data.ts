@@ -438,5 +438,22 @@ export const data: Array<Demo> = [
         'https://developer.mozilla.org/en-US/docs/Web/API/EyeDropper_API',
       canIUseURL: 'https://caniuse.com/mdn-api_eyedropper',
     },
-  }, //replace item here
+  }, {
+  id: 'web-bluetooth-api', 
+  emoji: '🛜',
+  title: 'Web Bluetooth API', 
+  description: 'The Web Bluetooth API provides the ability to connect and interact with Bluetooth Low Energy peripherals.', 
+  meta: {
+    author: { 
+      name: 'Ian Oliveira',
+      social: {
+        email: 'ian.oliv@outlook.com', 
+        github: 'IanOliv',
+        twitter: 'iangabiel',
+      },
+    },
+    apiDocURL: '',
+    canIUseURL: 'web-bluetooth', 
+  },
+}, //replace item here
 ];
